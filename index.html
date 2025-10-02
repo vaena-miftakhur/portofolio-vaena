@@ -1,0 +1,297 @@
+<!DOCTYPE html> 
+<html lang="id"> 
+<head> 
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, 
+initial-scale=1.0" /> 
+  <title>Portofolio | Vaena Miftakhur Risko</title> 
+</head> 
+<body> 
+  <!-- Isi website akan diletakkan di sini --> 
+</body> 
+</html> 
+<header> 
+    <h1>Vaena Miftakhur Risko | Pengembang Web Pemula</h1> 
+    <nav> 
+      <ul> 
+        <li><a href="#tentang">Tentang Saya</a></li> 
+        <li><a href="#proyek">Proyek</a></li> 
+        <li><a href="#kontak">Kontak</a></li> 
+      </ul> 
+    </nav> 
+  </header> 
+  <main> 
+    <section id="vaena"> 
+    <figure> 
+    <img 
+    src="vaena.jpg" 
+    alt="Foto diri Vaena Miftakhur Risko" 
+    width="400" 
+    height="500" 
+    srcset="vaena.jpg 400w, vaena.jpg 1000w" 
+    sizes="(max-width: 600px) 100vw, 800px" 
+    loading="eager" 
+    style="display: block; margin: 0 auto;" 
+    /> 
+    <figcaption style="text-align: center;"> 
+    Selamat datang! Saya adalah mahasiswa Pemrograman Web 1 yang 
+    bersemangat. 
+    </figcaption> 
+    </figure> 
+    </section> 
+    <section id="tentang"> 
+        <article> 
+        <h2>Tentang Saya</h2> 
+        <p> 
+        Saya Vaena Miftakhur Risko, seorang mahasiswa semester 3 di 
+        bidang Teknik 
+        Informatika. Materi yang saya kuasai saat ini meliputi 
+        <strong>HTML5 Semantik</strong>, <strong>CSS 
+        Flexbox</strong>, dan 
+        dasar-dasar <strong>JavaScript DOM Manipulation</strong>. 
+        </p> 
+        <aside> 
+        <h3>Keahlian Lain:</h3> 
+        <ul> 
+        <li>Desain Responsif</li> 
+        <li>Git Version Control (Dasar)</li> 
+        </ul> 
+        </aside> 
+        </article> 
+        </section> 
+        <section id="proyek"> 
+            <h2>Portofolio Proyek</h2> 
+            <div class="project-grid"> 
+              <article class="project-item"> 
+                <h3>Website Statis Kampus</h3> 
+                <img 
+                  src="proyek-kampus-kecil.jpg" 
+                  alt="Website kampus" 
+                  width="300" 
+                  height="200" 
+                  loading="lazy" 
+                /> 
+                <p> 
+                  Dibangun menggunakan HTML Semantik dan CSS untuk tata letak. 
+                  Proyek ini mendemonstrasikan pemahaman dasar struktur web. 
+                </p> 
+              </article> 
+      
+              <article class="project-item"> 
+                <h3>Kalkulator Interaktif</h3> 
+                <img 
+                  src="proyek-kalkulator.jpg" 
+                  alt="Kalkulator sederhana" 
+                  width="300" 
+                  height="200" 
+                  loading="lazy" 
+                /> 
+                <p> 
+                  Menggunakan JavaScript untuk logika perhitungan dan manipulasi DOM 
+                  untuk menampilkan hasil. 
+                </p> 
+              </article> 
+      
+              <article class="project-item"> 
+                <h3>Landing Page Responsif</h3> 
+                <picture> 
+                  <source srcset="proyek-landing.webp" type="image/webp" /> 
+                  <img 
+                    src="proyek-landing.jpg" 
+                    alt="Landing page modern" 
+                    width="300" 
+                    height="200" 
+                    loading="lazy" 
+                  /> 
+                </picture> 
+                <p> 
+                  Latihan desain responsif menggunakan Flexbox dan pengoptimalan 
+                  <section id="kontak"> 
+                    <h2>Hubungi Saya</h2> 
+                    <address> 
+                      Email: <a href="mailto:vaenamiftakhurrisko@gmail.com">vaenamiftakhurrisko@gmail.com</a><br /> 
+                      LinkedIn: <a href="https://www.linkedin.com/in/vaena-risko/" target="_blank">/in/Vaena-Miftakhur-Risko</a> 
+                    </address>
+
+                  </section> 
+                </main> 
+                <footer> 
+                    <p> 
+                      <time datetime="2025-10-01">2025</time> &copy; [Vaena Miftakhur Risko]. Hak 
+                      Cipta Dilindungi. 
+                    </p> 
+                    <nav> 
+                        <a href="#hero">⬆ Kembali ke Atas</a> 
+                      </nav> 
+                    </footer> 
+                    <style> 
+                        :root { 
+                          --primary: #06b6d4; 
+                          --secondary: #0f172a; 
+                          --bg: #f9fafb; 
+                          --text: #1e293b; 
+                        } 
+                    
+                        @media (prefers-color-scheme: dark) { 
+                          :root { 
+                            --bg: #0f172a; 
+                            --text: #f1f5f9; 
+                            --secondary: #1e293b; 
+                          } 
+                        } 
+                    
+                        body { 
+                          font-family: "Inter", sans-serif; 
+                          margin: 0; 
+                          padding: 0; 
+                          background-color: var(--bg); 
+                          color: var(--text); 
+                          line-height: 1.6; 
+                        } 
+                    
+                        header { 
+                          background: linear-gradient(135deg, var(--primary), #3b82f6); 
+                          color: white; 
+                          padding: 2rem 1rem; 
+                          text-align: center; 
+                          position: sticky; 
+       top: 0; 
+       z-index: 50; 
+     } 
+ 
+     header h1 { 
+       margin: 0 0 1rem 0; 
+       font-size: 1.8rem; 
+     } 
+ 
+     nav ul { 
+       list-style: none; 
+       padding: 0; 
+       display: flex; 
+       justify-content: center; 
+       gap: 1.5rem; 
+       flex-wrap: wrap; 
+       margin: 0; 
+     } 
+ 
+     nav a { 
+       color: white; 
+       text-decoration: none; 
+       font-weight: 600; 
+       transition: color 0.3s ease; 
+     } 
+ 
+     nav a:hover { 
+       color: #facc15; 
+     } 
+ 
+     main { 
+       max-width: 1100px; 
+       margin: 2rem auto; 
+       padding: 1rem; 
+     } 
+ 
+     section { 
+       margin-bottom: 4rem; 
+     } 
+ 
+     h2 { 
+       margin-bottom: 1rem; 
+       font-size: 1.6rem; 
+       color: var(--primary); 
+     } 
+ 
+     /* Hero */ 
+     #hero { 
+       text-align: center;
+    } 
+ 
+ #hero img { 
+   max-width: 100%; 
+   border-radius: 1rem; 
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+ } 
+
+ #hero figcaption { 
+   margin-top: 1rem; 
+   font-style: italic; 
+ } 
+
+ /* Tentang */ 
+ #tentang p { 
+   margin-bottom: 1rem; 
+ } 
+
+ aside { 
+   background-color: var(--secondary); 
+   color: white; 
+   padding: 1rem; 
+   border-radius: 0.75rem; 
+   margin-top: 1.5rem; 
+ } 
+
+ /* Proyek */ 
+ .project-grid { 
+   display: grid; 
+   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+   gap: 1.5rem; 
+ } 
+
+ .project-item { 
+   background: white; 
+   border-radius: 0.75rem; 
+   padding: 1.2rem; 
+   text-align: center; 
+   transition: transform 0.3s ease, box-shadow 0.3s ease; 
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+ } 
+
+ @media (prefers-color-scheme: dark) { 
+   .project-item { 
+     background: #1e293b; 
+   } 
+ } 
+
+ .project-item:hover { 
+   transform: translateY(-6px);
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+     } 
+ 
+     .project-item img { 
+       max-width: 100%; 
+       border-radius: 0.5rem; 
+       margin-bottom: 1rem; 
+     } 
+ 
+     /* Kontak */ 
+     address { 
+       font-style: normal; 
+       background: var(--secondary); 
+       color: white; 
+       padding: 1rem; 
+       border-radius: 0.75rem; 
+     } 
+ 
+     address a { 
+       color: #facc15; 
+       text-decoration: none; 
+     } 
+ 
+     /* Footer */ 
+     footer { 
+       text-align: center; 
+       padding: 1.5rem; 
+       background-color: var(--secondary); 
+       color: white; 
+       margin-top: 2rem; 
+     } 
+ 
+     footer nav { 
+       margin-top: 0.5rem; 
+     } 
+ 
+     footer a { 
+       color: var(--primary); 
+       text-decoration: none; 
+     } 
+   </style>
